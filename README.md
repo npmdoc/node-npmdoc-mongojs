@@ -1,6 +1,6 @@
 # npmdoc-mongojs
 
-#### api documentation for  [mongojs (v2.4.0)](https://github.com/mafintosh/mongojs#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-mongojs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-mongojs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-mongojs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-mongojs)
+#### basic api documentation for  [mongojs (v2.4.0)](https://github.com/mafintosh/mongojs#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-mongojs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-mongojs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-mongojs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-mongojs)
 
 #### Easy to use module that implements the mongo api
 
@@ -133,7 +133,8 @@
         "geotag": "geopkg update",
         "test": "standard && (tape \"test/test-*.js\" && node --harmony --harmony-proxies node_modules/tape/bin/tape \"test/test-*.js\") | tap-spec"
     },
-    "version": "2.4.0"
+    "version": "2.4.0",
+    "bin": {}
 }
 ```
 
